@@ -1,0 +1,10 @@
+[Unit]
+Description=Surface Pro 6 CPU Policy
+
+[Service]
+Type=simple
+ExecStart=/usr/lib/x86_64-linux-gnu/surface-cpu-policy/policy.py
+ExecStop=
+
+[Install]
+WantedBy=multi-user.target
