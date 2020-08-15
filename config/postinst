@@ -1,0 +1,5 @@
+#!/bin/bash
+chmod +x /usr/lib/x86_64-linux-gnu/surface-cpu-policy/policy.py
+
+systemctl enable surface.service
+systemctl start surface.service
